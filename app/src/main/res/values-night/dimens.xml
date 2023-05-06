@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout1_padding">20dp</dimen>
+    <dimen name="layout2_padding">24dp</dimen>
+    <dimen name="txt_head_size">20dp</dimen>
+    <dimen name="form_txt_size">18sp</dimen>
+    <dimen name="crd_width">397dp</dimen>
+    <dimen name="crd_height">578dp</dimen>
+    <dimen name="view_txt_size">17dp</dimen>
+    <dimen name="car_crd_width">161dp</dimen>
+    <dimen name="car_crd_height">165dp</dimen>
+    <dimen name="car_image_w">121dp</dimen>
+    <dimen name="car_img_height">100dp</dimen>
+    <dimen name="car_view_width">247dp</dimen>
+    <dimen name="car_view_height">344dp</dimen>
+</resources>
