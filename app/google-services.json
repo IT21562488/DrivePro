@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294560206215",
+    "project_id": "signupandsignin-1172c",
+    "storage_bucket": "signupandsignin-1172c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294560206215:android:a411eb32c23920a433d722",
+        "android_client_info": {
+          "package_name": "com.example.signupandsignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294560206215-r80qnsa7r7o7aclqrj0j3asojbo1o25h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Q3t0klCjApE70lWwWmUivUkMWbUxdOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294560206215-r80qnsa7r7o7aclqrj0j3asojbo1o25h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

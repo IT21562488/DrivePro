@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">SignUpAndSignin</string>
+    <string name="welcomeTxt">Welcome back to the app!</string>
+    <string name="sloganTxt">Experience the freedom of the open road</string>
+    <string name="btnWelLogin">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_image">Welcome Image</string>
+    //splash
+
+    <string name="splashView">Splash Image</string>
+    <string name="logoText">DrivePro</string>
+
+    //register page
+    <string name="welcome_background">Welcome Background</string>
+    <string name="registerTxt">Create an Account</string>
+    <string name="regName">Your Name</string>
+    <string name="regEmail">Your Email</string>
+    <string name="regPhone">Your Phone Number</string>
+    <string name="regPassword">Password</string>
+    <string name="regQuestion">Why Are You Here? to:</string>
+    <string name="regInputName">Enter Your Name</string>
+    <string name="regInputEmail">Enter Your Email</string>
+    <string name="regInputPassword">Create a Password</string>
+    <string name="regInputPhone">Enter Your Phone Number</string>
+    <string name="btnRegister">Register</string>
+    <string name="regImg">Register Image</string>
+    <string name="regBackground">Register Background</string>
+
+    //login Page
+    <string name="loginHeadingEmail">Your Email</string>
+    <string name="loginHeadingPassword">Your Password</string>
+    <string name="loginInputEmail">Enter Your Email</string>
+    <string name="loginInputPassword">Enter Your Password</string>
+    <string name="btn_login">Login</string>
+    <string name="gorgotPass">Forget Password?</string>
+    <string name="LoginChnage">or</string>
+    <string name="loginText">Login to Your Account</string>
+    <string name="loginImg">Login Image</string>
+    <string name="loginBackground">Login Background</string>
+
+    //profile Managing Page
+    <string name="profileUser">User_name</string>
+    <string name="userRole">User Profile</string>
+    <string name="profileWidgetsHelp">Help</string>
+    <string name="profileWidgetsWallet">Wallet</string>
+    <string name="profileWidgetsTrips">Trips</string>
+    <string name="profileUpdateWidgetsHelp">Help</string>
+    <string name="profileUpdateWidgetsWallet">Wallet</string>
+    <string name="profileUpdateWidgetsDrive">Drive</string>
+    <string name="profilefull_name">Full Name</string>
+    <string name="profileEmail_adress">Email Adress</string>
+    <string name="profileContact_number">Contact Number</string>
+    <string name="profileGender">Gender</string>
+    <string name="profileBirthday">Birthday</string>
+    <string name="profileUser_name">User_name</string>
+    <string name="profileUser_name_gmail_com">User_name@gmail.com</string>
+    <string name="profilePhone">070 000 0000</string>
+    <string name="ProfiileVehicle_count">Vehicle Count</string>
+    <string name="ProfilePlease_update_your_vehicle_count">Please Update Your Vehicle Count</string>
+    <string name="ProfileLanguages">Languages</string>
+    <string name="profileFull_name">Full Name</string>
+    <string name="ProfileEmail_adress">Email Adress</string>
+    <string name="ProfileContact_number">Contact Number</string>
+    <string name="ProfilePlease_update_your_language">Please Update Your Language</string>
+    <string name="btnProfileUpdate_profile">UPDATE PROFILE</string>
+    <string name="btnProfileLog_out">LOG OUT</string>
+    <string name="userRoleDrivers_profile">Drivers Profile</string>
+    <string name="userProfileUser_name">User_name</string>
+    <string name="userProfileUser_name_gmail_com">User_name@gmail.com</string>
+    <string name="userProfilePhone">070 000 0000</string>
+    <string name="userProfilePease_update_your_gender">Please Update Your Gender</string>
+    <string name="userProfilePlease_update_your_birthday">Please Update Your Birthday</string>
+    <string name="btnUserProfileUpdate_profile">UPDATE PROFILE</string>
+    <string name="userProfileLog_out">LOG OUT</string>
+    <string name="updateProfileDriverName">User_name</string>
+    <string name="updateProfileRole">Drivers Profile</string>
+    <string name="updateProfileDriverHeading">PROFILE UPDATE</string>
+    <string name="UpdateProfileDriverName">Full Name</string>
+    <string name="UpdateProfileDriveNameValue">Enter Your New Name</string>
+    <string name="UpdateProfileDriveEmail">Email Adress</string>
+    <string name="UpdateProfileDriveEmailValue">Enter Your New Email Adress</string>
+    <string name="UpdateProfileDriveContact">Contact Number</string>
+    <string name="UpdateProfileDriveContactValue">Enter Your New Contact Number</string>
+    <string name="UpdateProfileDriveVehicle">Vehicle Count</string>
+    <string name="UpdateProfileDriveVehicleValue">Enter Your Vehicle Count</string>
+    <string name="UpdateProfileDriveLanguage">Languages</string>
+    <string name="UpdateProfileDriveLanguageValue">Enter Your New Speakable Languages</string>
+    <string name="btnUpdateProfileConfirm">CONFIRM</string>
+    <string name="btnUpdateProfileDelete">DELETE PROFILE</string>
+    <string name="updateProfileUserName">User_name</string>
+    <string name="updateProfileUserRole">User Profile</string>
+    <string name="updateProfileUserHeading">PROFILE UPDATE</string>
+    <string name="updateProfileUserFullName">Full Name</string>
+    <string name="updateProfileUserNameValue">Enter Your New Name</string>
+    <string name="updateProfileUserEmail">Email Adress</string>
+    <string name="updateProfileUserEmailValue">Enter Your New Email Adress</string>
+    <string name="pdateProfileUserContact">Contact Number</string>
+    <string name="pdateProfileUserContactValue">Enter Your New Contact Number</string>
+    <string name="pdateProfileUserGender">Gender</string>
+    <string name="pdateProfileUserGenderValue">Enter Your Gender</string>
+    <string name="pdateProfileUserBirthday">Birthday</string>
+    <string name="updateProfileUserBirthdayValue">Enter Your Birthday</string>
+    <string name="btnUpdateProfileUserConfirm">CONFIRM</string>
+    <string name="btnUpdateProfileUserDelete">DELETE PROFILE</string>
+
+    //car mng
+    <string name="drivepro">DrivePro</string>
+    <string name="add_new_vehicle">Add new vehicle</string>
+    <string name="vehicle_model">Vehicle model</string>
+    <string name="select_location">Select Location</string>
+    <string name="transition_type">Transition type</string>
+    <string name="price_per_day">Price per day</string>
+    <string name="choose_image">Choose image</string>
+    <string name="passengers">Passengers</string>
+    <string name="available_days">Available days</string>
+    <string name="air_condition">Air condition</string>
+    <string name="driver">Driver</string>
+    <string name="free_cancelation">Free cancelation</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="manage_vehicle">Manage vehicle</string>
+    <string name="view_vehicles">View Vehicles</string>
+    <string name="txt">Now you can view and manage added vehicles in here</string>
+    <string name="add_vehicles">Add Vehicles</string>
+    <string name="view_vehicle">View vehicle</string>
+    <string name="location">Location</string>
+    <string name="update">Update</string>
+
+    //payment
+    <string name="card_holder_name">Card holder name:</string>
+    <string name="card_number">Card number:</string>
+    <string name="cvv">CVV:</string>
+    <string name="expire_date">Expire date:</string>
+    <string name="payment">payment</string>
+    <string name="pay_now">Pay now</string>
+    <string name="add_bank_details">Add bank details</string>
+    <string name="select_bank">Select Bank:</string>
+    <string name="select_branch">Select Branch:</string>
+
+    <string-array name="BankName">
+        <item>Select Bank</item>
+        <item>Combank</item>
+        <item>Bank Of Ceylon</item>
+        <item>Combank</item>
+        <item>Hatton National Bank</item>
+        <item>Sampath Bank</item>
+        <item>Peoples Bank</item>
+        <item>National Savings Bank</item>
+    </string-array>
+
+    <string-array name="CityName">
+        <item>Select City</item>
+        <item>Anuradhapura</item>
+        <item>Combank</item>
+        <item>Polonnaruwa</item>
+        <item>Kegalla</item>
+        <item>Kandy</item>
+        <item>Jaffna</item>
+        <item>Colombo</item>
+        <item>Mathale</item>
+    </string-array>
+</resources>
