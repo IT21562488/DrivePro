@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "883722705610",
+    "firebase_url": "https://drivepro-9f9bd-default-rtdb.firebaseio.com",
+    "project_id": "drivepro-9f9bd",
+    "storage_bucket": "drivepro-9f9bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883722705610:android:0e41a557f8a27e0e5cb233",
+        "android_client_info": {
+          "package_name": "com.example.rentalmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883722705610-5f8g28ubmd7aia6vg2dkgluudt71ks7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa7L01c2gKXcpUce7nVUFCnAzAxWtG-IU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883722705610-5f8g28ubmd7aia6vg2dkgluudt71ks7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883722705610:android:c3d6d99b85030f3c5cb233",
+        "android_client_info": {
+          "package_name": "com.example.vehiclemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883722705610-5f8g28ubmd7aia6vg2dkgluudt71ks7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa7L01c2gKXcpUce7nVUFCnAzAxWtG-IU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883722705610-5f8g28ubmd7aia6vg2dkgluudt71ks7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
