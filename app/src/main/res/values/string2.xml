@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="card_holder_name">Card holder name:</string>
+    <string name="card_number">Card number:</string>
+    <string name="cvv">CVV:</string>
+    <string name="expire_date">Expire date:</string>
+    <string name="payment">payment</string>
+    <string name="pay_now">Pay now</string>
+    <string name="add_bank_details">Add bank details</string>
+    <string name="select_bank">Select Bank:</string>
+    <string name="select_branch">Select Branch:</string>
+
+    <string-array name="BankName">
+        <item>Select Bank</item>
+        <item>Combank</item>
+        <item>Bank Of Ceylon</item>
+        <item>Combank</item>
+        <item>Hatton National Bank</item>
+        <item>Sampath Bank</item>
+        <item>Peoples Bank</item>
+        <item>National Savings Bank</item>
+    </string-array>
+
+    <string-array name="CityName">
+        <item>Select City</item>
+        <item>Anuradhapura</item>
+        <item>Combank</item>
+        <item>Polonnaruwa</item>
+        <item>Kegalla</item>
+        <item>Kandy</item>
+        <item>Jaffna</item>
+        <item>Colombo</item>
+        <item>Mathale</item>
+    </string-array>
+</resources>
