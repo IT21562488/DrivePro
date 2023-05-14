@@ -34,7 +34,7 @@ class MyRentalActivity : AppCompatActivity() {
 
         getRentalData()
     }
-
+//comment
     private fun getRentalData() {
 
         myRentalRecyclerView.visibility = View.GONE
