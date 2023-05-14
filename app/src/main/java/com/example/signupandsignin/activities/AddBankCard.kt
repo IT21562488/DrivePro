@@ -58,15 +58,7 @@ class AddBankCard : AppCompatActivity() {
 
 
 
-//        if(crdNo.isEmpty()||hname.isEmpty()) {
-//            if (crdNo.isEmpty()) {
-//                cardNoadd.error = "Please enter name"
-//            }
-//            if (hname.isEmpty()) {
-//                cardHoldName.error = "Please enter name"
-//
-//        }
-//        else {
+
             val CardID = dbRef.push().key!!
             val card = BankCradModel(CardID,bank,city,crdNo,hname)
 
