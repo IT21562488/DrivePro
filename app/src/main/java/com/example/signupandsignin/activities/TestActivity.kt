@@ -106,7 +106,6 @@ class TestActivity : AppCompatActivity() {
         val ettrans = mDialogView.findViewById<EditText>(R.id.ettrans)
         val etpas = mDialogView.findViewById<EditText>(R.id.etpas)
         val etavailable = mDialogView.findViewById<EditText>(R.id.etavailable)
-
         val btnUpdateData = mDialogView.findViewById<Button>(R.id.btnUpdateData)
 
         etdriveID.setText(intent.getStringExtra("cusID").toString())
