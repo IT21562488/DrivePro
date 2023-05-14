@@ -57,6 +57,7 @@ class signup_driver : AppCompatActivity() {
 
                 }
 
+
             } else {
                 if (Email.isEmpty()){
                     Toast.makeText(this,"Please fill Email", Toast.LENGTH_LONG).show()
