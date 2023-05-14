@@ -48,7 +48,6 @@ class AddBankCard : AppCompatActivity() {
             startActivity(intent)
         }
 
-
     }
     private fun saveCrdData() {
         val bank = spinnerBank.toString()
