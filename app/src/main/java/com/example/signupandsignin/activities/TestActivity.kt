@@ -47,6 +47,7 @@ class TestActivity : AppCompatActivity() {
         }
     }
 
+    //delete record
     private fun deleteRecord(id: String) {
         val dbRef = FirebaseDatabase.getInstance().getReference("Vehicle").child(id)
         val mTask = dbRef.removeValue()
@@ -61,7 +62,7 @@ class TestActivity : AppCompatActivity() {
             Toast.makeText(this, "Deleting Err ${error.message}", Toast.LENGTH_LONG).show()
         }
     }
-//sandali
+
     private fun initView() {
         tvDID = findViewById(R.id.tvDID)
         tvID = findViewById(R.id.tvID)
