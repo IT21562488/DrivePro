@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activities.UserProfileUpdateActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="415dp"
+        android:layout_height="210dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/update_background"
+        tools:layout_editor_absoluteY="-94dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/updateProfileUserName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/updateProfileUserRole"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="233dp"
+        android:layout_height="44dp"
+        android:background="@drawable/white_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="@string/updateProfileUserHeading"
+            android:textAlignment="center"
+            android:textColor="#003086"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ProfileUpdateHeadingMarginStart"
+            android:layout_marginTop="@dimen/ProfileUpdateHeadingMarginTop"
+            android:text="@string/updateProfileUserFullName"
+            android:textColor="@color/smalt_blue"
+            android:textSize="@dimen/ProfileUpdateHeadingTextSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profileUpdateInputHeight"
+            android:layout_marginStart="@dimen/profileUpdateInputMarginStart"
+            android:layout_marginTop="@dimen/profileUpdateInputMarginTop"
+            android:layout_marginEnd="@dimen/profileUpdateInputMarginEnd"
+            android:ems="10"
+            android:hint="@string/updateProfileUserNameValue"
+            android:inputType="textPersonName"
+            android:padding="@dimen/profileUpdateInputPadding"
+            android:textColor="#000000"
+            android:textColorHint="#757171" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ProfileUpdateHeadingMarginStart"
+            android:layout_marginTop="@dimen/ProfileUpdateHeadingMarginTop"
+            android:text="@string/updateProfileUserEmail"
+            android:textColor="@color/smalt_blue"
+            android:textSize="@dimen/ProfileUpdateHeadingTextSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profileUpdateInputHeight"
+            android:layout_marginStart="@dimen/profileUpdateInputMarginStart"
+            android:layout_marginTop="@dimen/profileUpdateInputMarginTop"
+            android:layout_marginEnd="@dimen/profileUpdateInputMarginEnd"
+            android:ems="10"
+            android:hint="@string/updateProfileUserEmailValue"
+            android:inputType="textPersonName"
+            android:padding="@dimen/profileUpdateInputPadding"
+            android:textColor="#000000"
+            android:textColorHint="#757171" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ProfileUpdateHeadingMarginStart"
+            android:layout_marginTop="@dimen/ProfileUpdateHeadingMarginTop"
+            android:text="@string/pdateProfileUserContact"
+            android:textColor="@color/smalt_blue"
+            android:textSize="@dimen/ProfileUpdateHeadingTextSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profileUpdateInputHeight"
+            android:layout_marginStart="@dimen/profileUpdateInputMarginStart"
+            android:layout_marginTop="@dimen/profileUpdateInputMarginTop"
+            android:layout_marginEnd="@dimen/profileUpdateInputMarginEnd"
+            android:ems="10"
+            android:hint="@string/pdateProfileUserContactValue"
+            android:inputType="textPersonName"
+            android:padding="@dimen/profileUpdateInputPadding"
+            android:textColor="#000000"
+            android:textColorHint="#757171" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ProfileUpdateHeadingMarginStart"
+            android:layout_marginTop="@dimen/ProfileUpdateHeadingMarginTop"
+            android:text="@string/pdateProfileUserGender"
+            android:textColor="@color/smalt_blue"
+            android:textSize="@dimen/ProfileUpdateHeadingTextSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etGender"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profileUpdateInputHeight"
+            android:layout_marginStart="@dimen/profileUpdateInputMarginStart"
+            android:layout_marginTop="@dimen/profileUpdateInputMarginTop"
+            android:layout_marginEnd="@dimen/profileUpdateInputMarginEnd"
+            android:ems="10"
+            android:hint="@string/pdateProfileUserGenderValue"
+            android:inputType="textPersonName"
+            android:padding="@dimen/profileUpdateInputPadding"
+            android:textColor="#000000"
+            android:textColorHint="#757171" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ProfileUpdateHeadingMarginStart"
+            android:layout_marginTop="@dimen/ProfileUpdateHeadingMarginTop"
+            android:text="@string/pdateProfileUserBirthday"
+            android:textColor="@color/smalt_blue"
+            android:textSize="@dimen/ProfileUpdateHeadingTextSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profileUpdateInputHeight"
+            android:layout_marginStart="@dimen/profileUpdateInputMarginStart"
+            android:layout_marginTop="@dimen/profileUpdateInputMarginTop"
+            android:layout_marginEnd="@dimen/profileUpdateInputMarginEnd"
+            android:ems="10"
+            android:hint="@string/updateProfileUserBirthdayValue"
+            android:inputType="textPersonName"
+            android:padding="@dimen/profileUpdateInputPadding"
+            android:textColor="#000000"
+            android:textColorHint="#757171" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="@dimen/buttonProfileMarginStart"
+            android:layout_marginTop="@dimen/buttonProfileUpdateMarginTop"
+            android:layout_marginEnd="@dimen/buttonProfileMarginEnd"
+            android:background="@drawable/background_btn"
+            android:text="@string/btnUpdateProfileUserConfirm"
+            android:textAlignment="center"
+            android:textColor="#040404"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_wel_login" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDlt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="@dimen/buttonProfileMarginStart"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="@dimen/buttonProfileMarginEnd"
+            android:background="@drawable/logout_btn"
+            android:text="@string/btnUpdateProfileUserDelete"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_wel_login" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

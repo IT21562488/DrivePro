@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activities.UserHomeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="396dp"
+        android:layout_height="688dp"
+        app:cardBackgroundColor="#F6F6FA"
+        app:cardElevation="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteY="27dp">
+
+        <LinearLayout
+            android:id="@+id/c"
+            android:layout_width="307dp"
+            android:layout_height="675dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/userPro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="264dp"
+                android:layout_height="wrap_content"
+                android:text="DrivePro"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Manage Vehicles"
+                android:textColor="#525253"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="149dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47dp" />
+
+            <LinearLayout
+                android:layout_width="242dp"
+                android:layout_height="177dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/custom_editor"
+                android:backgroundTint="#BCC4ED"
+                android:orientation="vertical"
+                android:padding="28dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/view_vehicles"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#373535"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="69dp"
+                    tools:layout_editor_absoluteY="492dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Manage your vehicles here"
+                    android:textColor="#4C4C4C"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnFetchData"
+                    android:layout_width="188dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#2A5C99"
+                    android:text="@string/view_vehicle"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck"
+                    tools:layout_editor_absoluteX="78dp"
+                    tools:layout_editor_absoluteY="374dp" />
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="23dp" />
+
+            <LinearLayout
+                android:layout_width="246dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/custom_editor"
+                android:backgroundTint="#BCC4ED"
+                android:orientation="vertical"
+                android:padding="28dp">
+
+                <TextView
+                    android:id="@+id/InsertData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/add_vehicles"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#373535"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="69dp"
+                    tools:layout_editor_absoluteY="492dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Add new vehicles here"
+                    android:textColor="#4C4C4C"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnInsertData"
+                    android:layout_width="188dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#2A5C99"
+                    android:clickable="true"
+                    android:text="ADD vehicle"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck"
+                    tools:layout_editor_absoluteX="78dp"
+                    tools:layout_editor_absoluteY="374dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
