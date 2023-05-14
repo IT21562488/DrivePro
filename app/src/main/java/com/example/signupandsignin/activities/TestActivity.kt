@@ -75,7 +75,7 @@ class TestActivity : AppCompatActivity() {
         btnUpdate = findViewById(R.id.btnUpdate)
         btnDelete = findViewById(R.id.btnDelete)
     }
-
+//set values
     private fun setValuesToViews() {
         tvDID.text = intent.getStringExtra("cusID")
         tvID.text = intent.getStringExtra("vehicleID")
