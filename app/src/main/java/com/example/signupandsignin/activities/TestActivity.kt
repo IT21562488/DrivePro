@@ -61,7 +61,7 @@ class TestActivity : AppCompatActivity() {
             Toast.makeText(this, "Deleting Err ${error.message}", Toast.LENGTH_LONG).show()
         }
     }
-
+//sandali
     private fun initView() {
         tvDID = findViewById(R.id.tvDID)
         tvID = findViewById(R.id.tvID)
