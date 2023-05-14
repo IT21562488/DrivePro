@@ -55,7 +55,6 @@ class AddBankCard : AppCompatActivity() {
         val crdNo = cardNoadd.text.toString()
         val hname = cardHoldName.text.toString()
 
-
             val CardID = dbRef.push().key!!
             val card = BankCradModel(CardID,bank,city,crdNo,hname)
 
